@@ -65,8 +65,8 @@ operator.forEach((op)=>{
 const equal = document.querySelector('.equal')
 equal.addEventListener('click', ()=>{
     console.log('a quand appuye sur egale = ' + a)
-    a = parseInt(a)
-    b = parseInt(b)
+    a = parseFloat(a)
+    b = parseFloat(b)
     switch(func){
         case "+":displayresult.value= add(a,b);
             break;
